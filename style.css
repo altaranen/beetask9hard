@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Geo:ital@0;1&family=Playfair+Display&display=swap');
+@font-face {
+    font-family: 'Futura PT Heavy';
+    src: url('FuturaPT-Heavy.eot');
+    src: url('./fonts/FuturaPT-Heavy.eot') format('embedded-opentype'),
+    url('./fonts/FuturaPT-Heavy.woff') format('woff'),
+    url('./fonts/FuturaPT-Heavy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('ProximaNova-Regular.eot');
+    src: url('./fonts/ProximaNova-Regular.eot') format('embedded-opentype'),
+    url('./fonts/ProximaNova-Regular.woff') format('woff'),
+    url('./fonts/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+    position: relative;
+    background-color: #464f54;
+    height: 100px;
+}
+header {
+    position: absolute;
+    
+    padding: 50px 64px 50px;
+    background-color: #181818;
+    max-width: 100%;
+    margin-top: 47px;
+    margin-left: 324px;
+    width: 812px;
+    height: 87px;
+    z-index: 2;
+}
+.header_first {
+    box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+    background-color: #181818;
+}
+
+.header_first h3{
+    max-width: 900px;
+    color: #767676;
+    font-family: "Proxima Nova Regular";
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+    margin-bottom: 13px;
+}
+input[type="text"] {
+    color: #fefefe;
+    font-family: "Playfair Display";
+    font-size: 48px;
+    background-color: #181818;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid rgb(255, 255, 255, 0.1);
+    height: 40px; 
+}
+
+.menu {
+    position: absolute;
+    margin-top: 184px;
+    margin-left: 339px;
+    z-index: 1;
+}
+.main {
+    position: absolute;
+    margin-top: 149px;
+    margin-left: 70px;
+    width: 1060px;
+    height: 795px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.22);
+    background-color: #ffffff;
+    padding-left: 67px;
+}
+.lineup {
+    position: absolute;
+    width: 2px;
+    height: 795px;
+    background-color: #e8eced;
+}
+.main_block {
+    position: absolute;
+    padding-left: 56px;
+    padding-right: 130px;
+}
+.main_first {
+    margin-top: 202px;
+    height: 17px;
+    color: #b4b4b4;
+    font-family: "Proxima Nova Regular";
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5.72px;
+
+}
+.main_second {
+    margin-top: 47px;
+    width: 755px;
+    height: 54px;
+    color: #2a2a2a;
+    font-family: "Futura PT Heavy";
+    font-size: 78px;
+    text-transform: uppercase;
+ 
+}
+.main_third {
+    margin-top: 21px;
+    color: #8f8f8f;
+    font-size: 30px;
+    font-family: Georgia;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: 62.44px;
+
+}
+.main_text {
+    color: #000000;
+    font-family: Georgia;
+    font-size: 27px;
+    letter-spacing: 0.8px;
+    line-height: 40.38px;
+}
